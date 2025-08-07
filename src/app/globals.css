@@ -1,1 +1,17 @@
+/* Import Tailwind CSS */
 @import "tailwindcss";
+
+@theme {
+  --color-black: #112618;
+  --color-green: #20492E;
+  --color-light-green: #BAF915;
+}
+
+/* Apply Schibsted Grotesk as default font */
+* {
+  font-family: "Schibsted Grotesk", sans-serif;
+}
+
+body {
+  font-family: "Schibsted Grotesk", sans-serif !important;
+}
